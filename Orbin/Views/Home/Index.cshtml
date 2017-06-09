@@ -1,0 +1,501 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Orbin gestion soluciones informaticas">
+    <meta name="author" content="Orbin gestion soluciones informaticas">
+    <meta name="keywords" content="orbin,gestion,soluciones,informaticas,gestion,control,sistemas,programas" />
+    <META NAME="robots" content="index,follow">
+    <title>Orbin Gestión - Soluciones informáticas</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/Content/stylish-portfolio.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="~/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.9";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <script>
+window.twttr = (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+                t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+
+            t._e = [];
+            t.ready = function (f) {
+                t._e.push(f);
+            };
+
+            return t;
+        }(document, "script", "twitter-wjs"));</script>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Orbin Gestión</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Inicio</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>Acerca</a>
+            </li>
+            <li>
+                <a href="#services" onclick=$("#menu-close").click();>¿Qué ofrecemos?</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Nuestra aplicación</a>
+            </li>
+            <li>
+                <a href="#clients" onclick=$("#menu-close").click();>Clientes</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Orbin Gestión©</h1>
+            <h3>Soluciones informáticas a medida</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Ver más</a>
+        </div>
+    </header>
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Acerca del producto</h2>
+                    <hr class="small">
+                    <div>
+                        <h3>Gestión de Productos y Stock fácil de usar</h3>
+                        <p class="lead">
+                            Mantenemos una correcta gestión de stock, desde la administración de existencias,
+                            modificación de precios, hasta impresión de remitos y facturas y envio de E-mails
+                        </p>
+
+                    </div>
+                    <div>
+                        <h3>Gestión de Ventas y Facturación en pocos pasos</h3>
+                        <p class="lead">
+                            Nuestro producto fue diseñado para facturar, y emitir todo tipo de comprobantes de manera simple y rápida.
+                        </p>
+                        <p>
+                            Podrás facturar cualquier tipo de producto o servicios que necesiten ser administrados por tamaño, peso, color, talle y cualquier caracteristica que sea necesaria y conveniente
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Administración de Clientes y Proveedores</h3>
+                        <p class="lead">
+                            Conservar y fidelizar los clientes mas rentables garantiza la supervivencia de la empresa, contamos con herramientas que permiten su adecuada gestión.
+                        </p>
+                        <p>Incluyendo aspectos críticos como la administración de cuentas corrientes y envíos de E-mails </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>¿Qúe ofrecemos?</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-bar-chart fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>Módulos customizadas</strong>
+                                </h4>
+                                <p>En base a sus necesidades de negocio</p>
+                                <p>Herramientas hechas a medida, con actualizaciones y mejoras constantes.</p>
+                                <p>Adaptable a cualquier tipo de comercio.</p>
+                                @*<a href="#" class="btn btn-light">Leer mas</a>*@
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-user fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>Administra clientes y proveedores</strong>
+                                </h4>
+                                <p>Tendras la posibilidad de dar de alta, baja y modificar</p>
+                                <p>datos personales e información que crea necesaria</p>
+                                <p>de tus clientes y proveedores en forma ágil, sencilla y rápida</p>
+                                @*<a href="#" class="btn btn-light">Leer mas</a>*@
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>Tecnología innovadora</strong>
+                                </h4>
+                                <p>En Orbin© nos enfocamos en brindarle al cliente herramientas modernas y estables.</p>
+                                <p>Cumplimentando todos los estandares de desarrollo de aplicaciones</p>
+                                @*<a href="#" class="btn btn-light">Leer mas</a>*@
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>Seguridad informática</strong>
+                                </h4>
+                                <p>Ofrecemos sistemas seguros. Aplicando normas ISO 17799 /27001 PR.</p>
+                                <p>Previniendo ataques tipo DDOS, SQL Injection, accesos no autorizados</p>
+                                @*<a href="#" class="btn btn-light">Leer más</a>*@
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+                <div>
+                    <h2>Contamos con las últimas tecnologias y herramientas del mercado</h2>
+                    <p class="lead">Aplicaciones web y de escritorio diseñadas en  <a target="_blank" style="color:blue;" href="https://www.microsoft.com/net">Microsoft .NET</a></p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Registra y consulta datos en pocos segundos</h1>
+            <h2>Ahorra tiempo y dinero al tener sus datos digitalizados</h2>
+        </div>
+    </aside>
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Nuestra aplicación</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="~/Content/Images/1.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="~/Content/Images/2.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="~/Content/Images/3.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="~/Content/Images/4.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="moreImages">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="~/Content/Images/1.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="~/Content/Images/2.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="~/Content/Images/3.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="~/Content/Images/4.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <div onclick="ShowMoreImg(event);" class="btn btn-dark">Ver mas imágenes</div>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- Call to Action -->
+    <!-- Clients -->
+    <section id="clients" class="clients bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Clientes</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-clients img-portfolio img-responsive" src="~/Content/Images/Clients/1.png">
+                                </a>
+                                <p class="lead" style="margin:0"> Autoservicio La Canasta</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-clients img-portfolio img-responsive" src="~/Content/Images/Clients/2.jpg">
+                                </a>
+                                <p class="lead" style="margin:0">Calzados Nico</p>
+                                <p>Todos los talles y modelos</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-clients img-portfolio img-responsive" src="~/Content/Images/Clients/3.png">
+                                </a>
+                                <p class="lead" style="margin:0">Autoservicio Sus Amigos</p>
+                                <p>El mejor precio de Ezeiza</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-clients img-portfolio img-responsive" src="~/Content/Images/Clients/4.jpg">
+                                </a>
+                                <p class="lead">Kiosko Yupi</p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-clients img-portfolio img-responsive" src="~/Content/Images/Clients/5.jpg">
+                                </a>
+                                <p class="lead">MaxiKiosco Olga</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- Call to Action -->
+    <section id="offer" class="offer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Nuestro comprimiso</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <p class="lead">
+                            Es ofrecele un servicio integral para que Ud. pueda conocer con certeza su nivel de inventario, controlar su activo fijo,
+                            cuantificar pérdidas por bienes en mal estado, calcular su punto de quiebre de stocks y maximizar sus ganancias.
+                        </p>
+                    </div>
+                    <hr class="small">
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- Call to Action -->
+    <div class="row">
+        <div class="col-md-12">
+            @*<section id="contact" class="map">
+                    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCj3YUEhI13CkNogUC-9ELkx2o-Vrlr7C4&q=Llavallol,BuenosAires&attribution_source=Google+Maps+Embed+API%20&attribution_web_url=http://www.fairmont.com/empress-victoria/%20&attribution_ios_deep_link_id=comgooglemaps://?daddr=Fairmont+Empress,+Victoria,+BC"></iframe>
+                </section>*@
+            <div class="container">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="~/Content/Images/1.jpg" alt="" style="width:100%;">
+                        </div>
+
+                        <div class="item">
+                            <img src="~/Content/Images/2.jpg" alt="" style="width:100%;">
+                        </div>
+
+                        <div class="item">
+                            <img src="~/Content/Images/3.jpg" alt="" style="width:100%;">
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+  
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Comunicate con nosotros</h3>
+                    <a target="_blank" href="mailto:orbingestion@gmail.com" class="btn btn-lg btn-light"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/orbingestion/messages/" class="btn btn-lg btn-dark"><i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                </div>
+            </div>
+            <hr class="small">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>También por redes sociales</h3>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="fb-like" data-href="https://www.facebook.com/orbingestion/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                        </div>
+                    </div>
+                    @*<hr class="small">*@
+                    <br />
+                    <div class="row">
+                        <div class="col-md-12" style="background-color:white;">
+                            <div class="fb-comments" data-href="https://www.facebook.com/orbingestion" data-numposts="5"></div>
+                        </div>
+                    </div>
+                    @*<hr class="small">*@
+                    <br />
+                    <a class="twitter-follow-button"
+                       href="https://twitter.com/OrbinGestion"
+                       data-size="large" data-lang="es">
+                        Seguinos @@OrbinGestion
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside> 
+    @*<hr />*@
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4>
+                        <strong>Orbin Gestión - Soluciones informáticas</strong>
+                    </h4>
+                    <hr class="small">
+                    <p>
+                        LLavallol, Lomas de Zamora
+                        <br>Buenos Aires, Argentina
+                    </p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (011) 15-3096 7191</li>
+                        <li><i class="fa fa-phone fa-fw"></i> (011) 15-5136 0963</li>
+                        <li>
+                            <i class="fa fa-envelope-o fa-fw"></i> <a target="_blank" href="mailto:orbingestion@gmail.com">OrbinGestion@Gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a target="_blank" href="https://www.facebook.com/orbingestion/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Orbin Gestión 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+    <script src="~/Scripts/jquery.js"></script>
+    <script src="~/Scripts/jquery-ui-1.11.4.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootbox.min.js"></script>
+    <script src="~/Scripts/orbin.js"></script>
+</body>
+</html>
